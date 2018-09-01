@@ -45,15 +45,15 @@ public class GamesWithRecursion extends JApplet {
 	// ----------------------------
 	// 'global' constants.  Having these defined at the top makes them easily accessible to change if needed
 	//
-	private final int PANEL_WIDTH = 550;							// constant: The width of the applet
-	private final int PANEL_HEIGHT = 400;							// constant: The height of the applet
+	private final int PANEL_WIDTH = 550;						// constant: The width of the applet
+	private final int PANEL_HEIGHT = 400;						// constant: The height of the applet
 	
 	// -----------------------------
 	// field/instance/'global' variables that are used across multiple functions.  Many of these can't be passed as parameters
 	// because they are used in method calls from Action Listeners.
 	//
-	private JLabel _statusMessage;									// JLabel: to display error and status messages
-	private JLabel _titleLabel;										// JLabel: to display MAZE or BOGGLE title message
+	private JLabel _statusMessage;							// JLabel: to display error and status messages
+	private JLabel _titleLabel;							// JLabel: to display MAZE or BOGGLE title message
 	
 	private JPanel _gridPanel = new JPanel();						// JPanel: The center game grid panel
 	private JPanel _inputPanel = new JPanel(); 						// JPanel: Used for Game input
