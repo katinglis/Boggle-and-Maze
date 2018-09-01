@@ -58,11 +58,11 @@ public class Boggle {
 	  *       @return void
 	  */
 	public Boggle(GamesWithRecursion applet, int dim) {
-		_applet = applet;																	// Save the applet object reference for future use
-		_dim = dim;																			// Save the board dimension
+		_applet = applet;										// Save the applet object reference for future use
+		_dim = dim;												// Save the board dimension
 				
-		_gridValues = new int [_dim][_dim];													// initialize the array of letters (as integers)
-		_gridLabels = new JLabel[_dim][_dim];												// initialize the array of letters (as JLabels) 
+		_gridValues = new int [_dim][_dim];						// initialize the array of letters (as integers)
+		_gridLabels = new JLabel[_dim][_dim];					// initialize the array of letters (as JLabels) 
 	}
 	
   	// -------------------------------------------------------
